@@ -15,3 +15,8 @@ def check_odd_even(number, odd=True):
             print(f"Correct, number {number} is even")
         else:
             print(f"wrong, number {number} is not even")
+
+check_odd_even(7)
+check_odd_even(12)
+check_odd_even(12, odd=False)
+check_odd_even(7, False)
